@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Author: Chang
+Created: 12/3/25
 
-## Getting Started
+Used with Next.js.
+Start project by:
 
-First, run the development server:
+1. npm i
+2. npm run dev
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Building this project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Step 1.
+npm create-next-app and install necessary libraries
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Step 2.
+make structure this structure:
+my-sales-dashboard/
+├─ app/
+│ ├─ dashboard/
+│ │ └─ page.tsx
+│ ├─ layout.tsx
+│ └─ globals.css
+├─ components/
+│ ├─ charts/
+│ │ ├─ SalesChart.tsx
+│ │ └─ ChartWrapper.tsx
+│ └─ controls/
+│ └─ SalesFilter.tsx
+├─ data/
+│ └─ salesData.ts
+├─ package.json
+└─ README.md
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+note that tailwind v4 doesn't need to manually modify the config
+files that came with the template will need cleaning to make it organized and clean for further steps.
