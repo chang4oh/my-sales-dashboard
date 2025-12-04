@@ -37,3 +37,9 @@ files that came with the template will need cleaning to make it organized and cl
 Step 3.
 have home page a link to dashboard
 fill in the components and mock data on sales from 2022-24
+
+Step 4.
+deploy on vercel
+this is done to make sure it's deployable before further
+updates on the project. Currently there is no need for any .env
+link: https://my-sales-dashboard-liard.vercel.app/
