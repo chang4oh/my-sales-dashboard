@@ -33,3 +33,7 @@ my-sales-dashboard/
 
 note that tailwind v4 doesn't need to manually modify the config
 files that came with the template will need cleaning to make it organized and clean for further steps.
+
+Step 3.
+have home page a link to dashboard
+fill in the components and mock data on sales from 2022-24
